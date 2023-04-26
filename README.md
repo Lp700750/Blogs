@@ -3,6 +3,7 @@
 ## Cpp
 1 [封装继承多态的理解](https://github.com/Lp700750/Blogs/blob/master/%E7%BB%A7%E6%89%BF%E5%B0%81%E8%A3%85%E5%A4%9A%E6%80%81%E7%90%86%E8%A7%A3.md)  
 2 [map与unordered_map之间的区别](https://github.com/Lp700750/Blogs/blob/master/map%E4%B8%8Eunordered_map.md)  
+3 [普通函数与内联函数](https://github.com/Lp700750/Blogs/blob/master/%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E4%B8%8E%E7%B1%BB%E8%81%94%E5%87%BD%E6%95%B0.md) 
 ## dataStructure
 ## Linux OS
 ## Linux Net
