@@ -5,7 +5,7 @@
 2 [map与unordered_map之间的区别](https://github.com/Lp700750/Blogs/blob/master/Article/map%E4%B8%8Eunordered_map.md)  
 3 [普通函数与内联函数](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%AE%E9%80%9A%E5%87%BD%E6%95%B0%E4%B8%8E%E5%86%85%E8%81%94%E5%87%BD%E6%95%B0.md) 
 ## dataStructure
-1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)
+1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)
 ## Linux OS
 ## Linux Net
 ## MySQL
