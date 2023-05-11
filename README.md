@@ -8,6 +8,6 @@
 ## dataStructure
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)
 ## Linux OS
-1 [操作系统内存分配]()
+1 [动态内存空间分布](https://github.com/Lp700750/Blogs/edit/master/Article/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%86%85%E5%AD%98%E5%88%86%E5%B8%83.md)
 ## Linux Net
 ## MySQL
