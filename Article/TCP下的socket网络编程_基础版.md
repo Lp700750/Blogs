@@ -18,7 +18,7 @@ int bind(int socket, const struct sockaddr *address,socklen_t address_len);
 - socket:上面成功创建套接字的返回值socket_fd
 - address:网络协议的地址
 > 它通常有三种，分别是struct sockaddr,struct sockaddr_in和struct sockaddr_un,一般我们采用的是struct sockaddr_in,但是bind里面采用的是struct sockaddr,因此这里需要我们进行强转，另外sockaddr_in里面有三个成员变量需要我们进行传参    
->  sin_family:需要传入网络通信协议，这里好理解通常采用的是ipv4，也就是AF_INET   
->  sin_port：需要我们传入网络通信绑定的端口号，对于服务器来说这个端口各个厂家都相对比较固定,知识这里需要注意的是，我们输入的是本地的主机序列，为了便于移植性，我们需要将他在装变成网络序列,需要采取的转换函数是htons(16位)或者是htonl(32位)   
->  sin_addr：需要我们传入的是网络通信绑定的ip地址，需要注意的是，这里的sin_addr是一个ipv4地址的结构体，真正需要的是里面的s_addr,也就是sin_addr.s_addr,通常这个值我们不直接传入服务器的ip地址，然是直接传入0(INADDR_ANY),原因是因为服务器可能有多个ip地址，如果这里直接明文绑定某个ip地址，那么这台服务器的其他ip地址当中传送进来的服务就无法被接收到。我们要的是这台服务器的所有进程服务，而不是某一个ip地址当中的进程服务。
+> - sin_family:需要传入网络通信协议，这里好理解通常采用的是ipv4，也就是AF_INET   
+> - sin_port：需要我们传入网络通信绑定的端口号，对于服务器来说这个端口各个厂家都相对比较固定,知识这里需要注意的是，我们输入的是本地的主机序列，为了便于移植性，我们需要将他在装变成网络序列,需要采取的转换函数是htons(16位)或者是htonl(32位)   
+> - sin_addr：需要我们传入的是网络通信绑定的ip地址，需要注意的是，这里的sin_addr是一个ipv4地址的结构体，真正需要的是里面的s_addr,也就是sin_addr.s_addr,通常这个值我们不直接传入服务器的ip地址，然是直接传入0(INADDR_ANY),原因是因为服务器可能有多个ip地址，如果这里直接明文绑定某个ip地址，那么这台服务器的其他ip地址当中传送进来的服务就无法被接收到。我们要的是这台服务器的所有进程服务，而不是某一个ip地址当中的进程服务。
 
