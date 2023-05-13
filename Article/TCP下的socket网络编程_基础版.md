@@ -17,6 +17,6 @@ int bind(int socket, const struct sockaddr *address,socklen_t address_len);
 ```   
 - socket:上面成功创建套接字的返回值socket_fd
 - address:网络协议的地址
-> 它通常有三种，分别是struct sockaddr,struct sockaddr_in和struct sockaddr_un,一般我们采用的是struct sockaddr_in,但是bind里面采用的是struct sockaddr,因此这里需要我们进行强转，另外sockaddr_in里面有三个成员变量需要我们进行传参
+> 它通常有三种，分别是struct sockaddr,struct sockaddr_in和struct sockaddr_un,一般我们采用的是struct sockaddr_in,但是bind里面采用的是struct sockaddr,因此这里需要我们进行强转，另外sockaddr_in里面有三个成员变量需要我们进行传参    
 > sin_port
 
