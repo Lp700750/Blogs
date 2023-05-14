@@ -1,6 +1,7 @@
 ## TCP下的socket编程理解_线程进程版
 ### 0 前言
-> 前面使用的TCP下的socket编程，是一种基础的版本，进行测试后就可能就发现，它只一个单进程版本，每一次只能服务一台客户端，其他的客户端如果访问的时候就只能等待该客户端终止之后才能够进行连接，这对于当前互联网的大并发来讲是不适用的，因此今天来讲述其进阶版本，使用多进程或者多线程来进行网络通信。
+> 前面使用的TCP下的socket编程，是一种基础的版本，进行测试后就可能就发现，它只一个单进程版本，每一次只能服务一台客户端，其他的客户端如果访问的时候就只能等待该客户端终止之后才能够进行连接，这对于当前互联网的大并发来讲是不适用的，因此今天来讲述其进阶版本，使用多进程或者多线程来进行网络通信。    
+![tcp_socket drawio](https://github.com/Lp700750/Blogs/assets/104414865/ed6e2ec2-cbc0-4a0f-b73b-7b20888efae7)
 ### 1 进程版本
 为了解决上面可能会出现的大并发的问题，我们在这里引入多进程来进行，看如下的代码
 ```
@@ -62,4 +63,49 @@ while(true)
 - 子进程执行的过程中，如果没有特殊请求，是需要父进程进行等待的，如果这里要进行等待的话，父进程不管是阻塞式等待还是非阻塞式等待，对于大并发的情况之下，都会影响运行的效果，因此这里我们需要将父子进程进行“分离处理”，处理的方法有两个：    
   1. 采用信号signal(SIGCHLD, SIG_IGN)，这时子进程就可以自己退出，不用父进程等待
   2. 在子进程里面创建子进程，子进程退出，然后只用执行孙子进程，这时孙子进程就是孤儿进程，由操作系统管理，(父进程不用等待孙子进程)
-
+### 2 线程版本
+基础版本最主要的问题就是只有一个执行流，对于大并发时就不再适用，而引入线程版本的原因就是和上面的线程类似，可以有多个执行流来进行网络通信。   
+```
+void srvice(int accept_fd)
+{
+  while(true)
+  {
+    char buffer[1024];
+    memset(buffer,0,sizeof(buffer));
+    ssize_t s=read(accept_fd,buffer,sizeof(buffer)-1);
+    if(s>0)                                                                                   
+    {
+      buffer[s]=0;
+      std::cout<<"client:"<<buffer<<std::endl;
+      std::string service_say("hello client");
+      write(accept_fd,service_say.c_str(),service_say.size());
+    }
+  }
+}
+void *HandlerRequest(void *args)
+ {
+     pthread_detach(pthread_self());
+     int new_sock = *(int *)args;
+     delete (int*)args;
+     ServiceIO(new_sock);
+     close(new_sock);
+}
+while(true)
+{
+      struct sockaddr_in peer;
+      socklen_t len=sizeof(peer);
+      int accept_fd=accept(socket_fd,(struct sockaddr*)&peer,&len);
+      if(accept_fd<0)
+      {
+        continue;
+      }
+  
+      //提供服务
+      pthread_t tid;
+      int * pram = new int(new_sock);
+      pthread_create(&tid, nuhread_crellptr, HandlerRequest, pram);
+}
+```   
+- 将每一个客户端的请求看作是一个执行流，由每一个线程来进行“接待”
+- 这里每一个线程里面需要加入pthread_detach让线程脱离，这样就可用不用让主线程进行等待
+- 同样为了防止文件描述符泄露，这里每一个子线程同样需要close,关闭不需要的文件描述符
