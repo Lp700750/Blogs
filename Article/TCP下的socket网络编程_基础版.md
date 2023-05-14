@@ -26,5 +26,20 @@ int bind(int socket, const struct sockaddr *address,socklen_t address_len);
 >   3.  将4字节由主机序列转化成为网络序列
    
 - address_len:该网络协议地址，注意它的类型是socklen_t
-- [x] **3 listen监听网络套接字**
+- [x] **3 listen监听网络套接字---我理解这部分是接收所有来自客户端的请求**    
+```
+int listen(int socket, int backlog);
+```      
+- socket:上面成功创建套接字的返回值socket_fd
+- backlog:暂时不解释，后面进行补充
+- return：如果监听正确，那么0将会被返回，如果监听错误，那么-1将会被返回
+- [x] **4 accept接收客户端请求**  
+```
+int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict address_len);
+```
+- socket:上面成功创建套接字的返回值socket_fd
+- address:网络协议的地址(同上面的bind)
+- address_len:该网络协议地址，注意它的类型是socklen_t(同上面的bind)
+- return:如果成功，他将会返回一个新的文件fd,这个文件fd专门用来处理网络通信的内容，失败的话将会返回-1并提供errno
+
 
