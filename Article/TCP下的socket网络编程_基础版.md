@@ -1,7 +1,7 @@
 ## TCP下的socket网络编程_基础版
 ### 0 前言
 > 作为Linux跨网络通信的技术的体现，socket套接字编程这里说实话确实有许多的难点不好理解，最近又看了这部分的知识，决定将这部分进行梳理一下，想对他来一次系统性的理解。
-### 1 服务器端
+### 1 服务端
 [服务端代码](https://github.com/Lp700750/Blogs/blob/master/Cpp/tcp_service.cpp)    
 作为提供服务的一端，服务器端的任务就会重很多，他在主要是分成如下的五个部分，主要的功能也如下：  
 - [x] **1 socket创建套接字---我的理解这部分是用来进行开启网络通信服务**   
@@ -45,5 +45,16 @@ int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict add
 - [x] **5 文件操作**
 - read:读取来自客户端的请求
 - write:给客户端提供反馈
-
-
+### 2 客户端
+> 客户端作为发起连接的一端，它的创建过程没有服务端那样的繁琐，他这里面就没有像服务端的监听listen与接收accept的过程，但是增加了一个发起连接connect的过程，同时客户端的bind过程也不需要我们手动的去bind，因为我们不清楚里面的端口分配情况，我们手动的去bind的话，可能会出现端口误用的情况，因此这里的bind交给操作系统进行bind就行。
+- [x] **connect发起连接请求**
+```
+int connect(int socket, const struct sockaddr *address,socklen_t address_len);
+```
+- socket:客户端socket成功创建后的返回值socket_fd
+- address:网络协议的地址(同上面的bind)
+- address_len:该网络协议地址，注意它的类型是socklen_t(同上面的bind)
+- return：成功返回0，否则返回-1同时提供errno
+- [x] **文件操作**
+- read:读取来自客户端的请求
+- write:给客户端提供反馈
