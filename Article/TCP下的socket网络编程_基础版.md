@@ -46,6 +46,7 @@ int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict add
 - read:读取来自客户端的请求
 - write:给客户端提供反馈
 ### 2 客户端
+[客户端代码](https://github.com/Lp700750/Blogs/blob/master/Cpp/tcp_client.cpp)     
 > 客户端作为发起连接的一端，它的创建过程没有服务端那样的繁琐，他这里面就没有像服务端的监听listen与接收accept的过程，但是增加了一个发起连接connect的过程，同时客户端的bind过程也不需要我们手动的去bind，因为我们不清楚里面的端口分配情况，我们手动的去bind的话，可能会出现端口误用的情况，因此这里的bind交给操作系统进行bind就行。
 - [x] **connect发起连接请求**
 ```
