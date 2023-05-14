@@ -40,6 +40,9 @@ int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict add
 - socket:上面成功创建套接字的返回值socket_fd
 - address:网络协议的地址(同上面的bind)
 - address_len:该网络协议地址，注意它的类型是socklen_t(同上面的bind)
-- return:如果成功，他将会返回一个新的文件fd,这个文件fd专门用来处理网络通信的内容，失败的话将会返回-1并提供errno
+- return:如果成功，他将会返回一个新的文件fd,这个文件fd专门用来处理网络通信的内容，失败的话将会返回-1并提供errno      
+- [x] **5 文件操作**
+- read:读取来自客户端的请求
+- write:给客户端提供反馈
 
 
