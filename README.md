@@ -8,7 +8,8 @@
 6 [结构体的对齐规则](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E5%AF%B9%E9%BD%90.md)   
 7 [new和delete的理解](https://github.com/Lp700750/Blogs/blob/master/Article/new%E5%92%8Cdelete%E7%9A%84%E7%90%86%E8%A7%A3.md)
 ## dataStructure
-1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)
+1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
+2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
 ## Linux OS
 1 [动态内存空间分布](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E5%B8%83.md)
 ## Linux Net
