@@ -5,7 +5,7 @@
 [服务端代码](https://github.com/Lp700750/Blogs/blob/master/Cpp/tcp_service.cpp)    
 作为提供服务的一端，服务器端的任务就会重很多，他在主要是分成如下的五个部分，主要的功能也如下：  
 - [x] **1 socket创建套接字---我的理解这部分是用来进行开启网络通信服务**   
-```
+```c++
 int socket(int domain, int type, int protocol);
 ```  
 - domain:需要我们传入进去的是ip的协议类型，目前我们所用的通信协议大多是ipv4，因此这里应当输入AF_INET  
@@ -13,7 +13,7 @@ int socket(int domain, int type, int protocol);
 - protocol:这里我们一般传入的都是0   
 - return：如果创建成功将返回一个非负整数(socket_fd)，创建失败则返回一个负数，同时有错误码导出  
 - [x] **2 bind绑定网络接口---我理解这部分是用来绑定网络通信文件的fd**
-```
+```c++
 int bind(int socket, const struct sockaddr *address,socklen_t address_len);
 ```   
 - socket:上面成功创建套接字的返回值socket_fd
@@ -28,14 +28,14 @@ int bind(int socket, const struct sockaddr *address,socklen_t address_len);
    
 - address_len:该网络协议地址，注意它的类型是socklen_t
 - [x] **3 listen监听网络套接字---我理解这部分是接收所有来自客户端的请求**    
-```
+```c++
 int listen(int socket, int backlog);
 ```      
 - socket:上面成功创建套接字的返回值socket_fd
 - backlog:暂时不解释，后面进行补充
 - return：如果监听正确，那么0将会被返回，如果监听错误，那么-1将会被返回
 - [x] **4 accept接收客户端请求**  
-```
+```c++
 int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict address_len);
 ```
 - socket:上面成功创建套接字的返回值socket_fd
@@ -49,7 +49,7 @@ int accept(int socket, struct sockaddr *restrict address,socklen_t *restrict add
 [客户端代码](https://github.com/Lp700750/Blogs/blob/master/Cpp/tcp_client.cpp)     
 > 客户端作为发起连接的一端，它的创建过程没有服务端那样的繁琐，他这里面就没有像服务端的监听listen与接收accept的过程，但是增加了一个发起连接connect的过程，同时客户端的bind过程也不需要我们手动的去bind，因为我们不清楚里面的端口分配情况，我们手动的去bind的话，可能会出现端口误用的情况，因此这里的bind交给操作系统进行bind就行。
 - [x] **connect发起连接请求**
-```
+```c++
 int connect(int socket, const struct sockaddr *address,socklen_t address_len);
 ```
 - socket:客户端socket成功创建后的返回值socket_fd
