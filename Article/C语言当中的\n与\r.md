@@ -2,7 +2,7 @@
 #### 0 前言
 > 我们在写C语言代码的时候，经常可能会遇到各种转义字符，今天我们来看一下这两个很容易混淆的转移字符\t与\n
 #### 1 \r与\n
-```
+```c++
 printf("hello\n");    输出hello  
 printf("hello\r");    输出hello
 printf("hello\rwo");  输出wollo
