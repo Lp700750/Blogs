@@ -6,7 +6,8 @@
 4 [函数栈帧的创建与销毁](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%87%BD%E6%95%B0%E6%A0%88%E5%B8%A7%E7%9A%84%E5%88%9B%E5%BB%BA%E4%B8%8E%E9%94%80%E6%AF%81.md)   
 5 [C语言当中的\r与\n](https://github.com/Lp700750/Blogs/blob/master/Article/C%E8%AF%AD%E8%A8%80%E5%BD%93%E4%B8%AD%E7%9A%84%5Cn%E4%B8%8E%5Cr.md)   
 6 [结构体的对齐规则](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E5%AF%B9%E9%BD%90.md)   
-7 [new和delete的理解](https://github.com/Lp700750/Blogs/blob/master/Article/new%E5%92%8Cdelete%E7%9A%84%E7%90%86%E8%A7%A3.md)
+7 [new和delete的理解](https://github.com/Lp700750/Blogs/blob/master/Article/new%E5%92%8Cdelete%E7%9A%84%E7%90%86%E8%A7%A3.md)   
+8 [常见字符串函数的使用与实现]()
 ## dataStructure
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
