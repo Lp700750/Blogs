@@ -10,7 +10,8 @@
 8 [常见字符串函数的使用与实现](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%87%BD%E6%95%B0%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%AE%9E%E7%8E%B0.md)   
 9 [特殊关键字的含义与使用](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%89%B9%E6%AE%8A%E5%85%B3%E9%94%AE%E5%AD%97%E7%9A%84%E5%90%AB%E4%B9%89%E4%B8%8E%E4%BD%BF%E7%94%A8.md)   
 10 [函数名字修饰](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%87%BD%E6%95%B0%E5%90%8D%E5%AD%97%E4%BF%AE%E9%A5%B0.md)     
-11 [程序运行的几个阶段](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E7%9A%84%E5%87%A0%E4%B8%AA%E9%98%B6%E6%AE%B5.md)
+11 [程序运行的几个阶段](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E7%9A%84%E5%87%A0%E4%B8%AA%E9%98%B6%E6%AE%B5.md)      
+12[模板的分离编译]()
 ## dataStructure
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
