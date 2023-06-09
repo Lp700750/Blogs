@@ -15,7 +15,8 @@
 13 [继承与组合]()    
 14 [C++11__右值引用](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%8F%B3%E5%80%BC%E5%BC%95%E7%94%A8.md)    
 15 [C++11__Lambda表达式](https://github.com/Lp700750/Blogs/blob/master/Article/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)    
-16 [C++11__包装器](https://github.com/Lp700750/Blogs/blob/master/Article/C%2B%2B11__%E5%8C%85%E8%A3%85%E5%99%A8.md)
+16 [C++11__包装器](https://github.com/Lp700750/Blogs/blob/master/Article/C%2B%2B11__%E5%8C%85%E8%A3%85%E5%99%A8.md)    
+17 [大小端测试]()
 ## dataStructure
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
