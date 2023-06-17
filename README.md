@@ -18,7 +18,7 @@
 16 [C++11__包装器](https://github.com/Lp700750/Blogs/blob/master/Article/C%2B%2B11__%E5%8C%85%E8%A3%85%E5%99%A8.md)    
 17 [大小端测试](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%A4%A7%E5%B0%8F%E7%AB%AF%E6%B5%8B%E8%AF%95.md)    
 18 [智能指针_1](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_1.md)    
-19 [智能指针_2][https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_2.md]
+19 [智能指针_2](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_2.md)
 ## dataStructure
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
