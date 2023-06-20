@@ -19,8 +19,9 @@
 17 [大小端测试](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%A4%A7%E5%B0%8F%E7%AB%AF%E6%B5%8B%E8%AF%95.md)    
 18 [智能指针_1](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_1.md)    
 19 [智能指针_2](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%99%BA%E8%83%BD%E6%8C%87%E9%92%88_2.md)    
-20 [特殊类的设计](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%89%B9%E6%AE%8A%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)
-## dataStructure
+20 [特殊类的设计](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%89%B9%E6%AE%8A%E7%B1%BB%E7%9A%84%E8%AE%BE%E8%AE%A1.md)    
+21 [单例模式](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+## dataStructure 
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
 ## Linux OS
