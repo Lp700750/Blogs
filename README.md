@@ -24,8 +24,7 @@
 ## dataStructure 
 1 [常见的排序图解](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E5%9B%BE%E8%A7%A3.md)   
 2 [深入理解快排](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%BF%AB%E6%8E%92.md)
-## Linux OS
-#### 这一章节本来也是准备用文字描述出来，但是自己在学这一块的时候，感觉有好多的东西使用文字描述起来不好，不好理解，感觉使用框图的形式更加的形象具体，因此这一章里面以框图为主。    
+## Linux OS    
 1 [动态内存空间分布](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%A9%BA%E9%97%B4%E7%9A%84%E5%88%86%E5%B8%83.md)    
 2 [进程基础](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E5%9F%BA%E7%A1%80.md)    
 3 [进程地址空间](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4.md)     
