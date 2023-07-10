@@ -30,7 +30,8 @@
 3 [进程地址空间](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4.md)     
 4 [进程终止](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E7%BB%88%E6%AD%A2.md)    
 5 [进程等待](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E7%AD%89%E5%BE%85.md)    
-6 [进程替换](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E6%9B%BF%E6%8D%A2.md)
+6 [进程替换](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E6%9B%BF%E6%8D%A2.md)    
+7 [进程与文件](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%BF%9B%E7%A8%8B%E4%B8%8E%E6%96%87%E4%BB%B6.md)
 
 ## Linux Net
 1 [TCP下的socket编程理解_基础版](https://github.com/Lp700750/Blogs/blob/master/Article/TCP%E4%B8%8B%E7%9A%84socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B_%E5%9F%BA%E7%A1%80%E7%89%88.md)  
