@@ -46,7 +46,8 @@
 19 [线程ID](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BA%BF%E7%A8%8BID.md)    
 20 [同步与互斥](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%90%8C%E6%AD%A5%E4%B8%8E%E4%BA%92%E6%96%A5.md)    
 21 [互斥锁原理](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BA%92%E6%96%A5%E9%94%81%E5%8E%9F%E7%90%86.md)    
-22 [生产者消费者模型](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%9E%8B.md)
+22 [生产者消费者模型](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E6%A8%A1%E5%9E%8B.md)    
+23 [条件变量](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%9D%A1%E4%BB%B6%E5%8F%98%E9%87%8F.md)
 
 ## Linux Net
 1 [TCP下的socket编程理解_基础版](https://github.com/Lp700750/Blogs/blob/master/Article/TCP%E4%B8%8B%E7%9A%84socket%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B_%E5%9F%BA%E7%A1%80%E7%89%88.md)  
