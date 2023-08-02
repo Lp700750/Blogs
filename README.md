@@ -55,5 +55,6 @@
 2 [TCP下的socket编程理解_线程进程版](https://github.com/Lp700750/Blogs/blob/master/Article/TCP%E4%B8%8B%E7%9A%84socket%E7%BC%96%E7%A8%8B%E7%90%86%E8%A7%A3_%E7%BA%BF%E7%A8%8B%E8%BF%9B%E7%A8%8B%E7%89%88.md):smile:  
 3 [TCP下的socket编程理解_线程池版(未更新完成)](https://github.com/Lp700750/Blogs/blob/master/Article/TCP%E4%B8%8B%E7%9A%84socket%E7%BC%96%E7%A8%8B%E7%90%86%E8%A7%A3_%E7%BA%BF%E7%A8%8B%E6%B1%A0%E7%89%88.md)   
 4 [OSI七层模型](https://github.com/Lp700750/Blogs/blob/master/Article/OSI%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B.md)    
-5 [网络重要名称](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BD%91%E7%BB%9C%E9%87%8D%E8%A6%81%E5%90%8D%E7%A7%B0.md)
+5 [网络重要名称](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BD%91%E7%BB%9C%E9%87%8D%E8%A6%81%E5%90%8D%E7%A7%B0.md)    
+6 [应用层协议(http/https)](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE(http%20https).md)
 ## MySQL
