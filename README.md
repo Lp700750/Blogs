@@ -58,5 +58,6 @@
 5 [网络重要名称](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BD%91%E7%BB%9C%E9%87%8D%E8%A6%81%E5%90%8D%E7%A7%B0.md)    
 6 [应用层协议(http/https)](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%BA%94%E7%94%A8%E5%B1%82%E5%8D%8F%E8%AE%AE(http%20https).md)    
 7 [cookie与session](https://github.com/Lp700750/Blogs/blob/master/Article/cookie%E4%B8%8Esession.md)    
-8 [https加密](https://github.com/Lp700750/Blogs/blob/master/Article/https%E7%9A%84%E5%8A%A0%E5%AF%86.md)
+8 [https加密](https://github.com/Lp700750/Blogs/blob/master/Article/https%E7%9A%84%E5%8A%A0%E5%AF%86.md)    
+9 [五元组标识通信](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BA%94%E5%85%83%E7%BB%84%E6%A0%87%E8%AF%86%E9%80%9A%E4%BF%A1.md)
 ## MySQL
