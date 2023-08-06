@@ -62,5 +62,6 @@
 9 [五元组标识通信](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BA%94%E5%85%83%E7%BB%84%E6%A0%87%E8%AF%86%E9%80%9A%E4%BF%A1.md)    
 10 [udp协议](https://github.com/Lp700750/Blogs/blob/master/Article/udp%E5%8D%8F%E8%AE%AE.md)    
 11 [tcp协议](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8D%8F%E8%AE%AE.md)    
-12 [tcp可靠机制_1](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8F%AF%E9%9D%A0%E6%9C%BA%E5%88%B6_1.md)
+12 [tcp可靠机制_1](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8F%AF%E9%9D%A0%E6%9C%BA%E5%88%B6_1.md)    
+13 [tcp可靠机制_2](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8F%AF%E9%9D%A0%E6%9C%BA%E5%88%B6_2.md)
 ## MySQL
