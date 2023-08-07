@@ -66,6 +66,7 @@
 13 [tcp可靠机制_2](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8F%AF%E9%9D%A0%E6%9C%BA%E5%88%B6_2.md)    
 14 [tcp可靠机制_3](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E5%8F%AF%E9%9D%A0%E6%9C%BA%E5%88%B6_3.md)    
 15 [tcp提高性能机制](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E6%8F%90%E9%AB%98%E6%80%A7%E8%83%BD%E6%9C%BA%E5%88%B6.md)    
-16 [tcp两个问题](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E4%B8%A4%E4%B8%AA%E9%97%AE%E9%A2%98.md)
+16 [tcp两个问题](https://github.com/Lp700750/Blogs/blob/master/Article/tcp%E4%B8%A4%E4%B8%AA%E9%97%AE%E9%A2%98.md)    
+17 [网络层基础](https://github.com/Lp700750/Blogs/blob/master/Article/%E7%BD%91%E7%BB%9C%E5%B1%82%E5%9F%BA%E7%A1%80.md)
 ## MySQL
 1 [认识MySQL](https://github.com/Lp700750/Blogs/blob/master/Article/%E8%AE%A4%E8%AF%86MySQL.md)
