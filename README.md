@@ -38,7 +38,7 @@
 9 [文件](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%96%87%E4%BB%B6.md)    
 10 [文件的创建](https://github.com/Lp700750/Blogs/blob/master/Article/%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%9B%E5%BB%BA.md)    
 11 [常见的进程通信方式](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%B8%B8%E8%A7%81%E7%9A%84%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F.md)     
-12 [信号与信号产生的方式](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BF%A1%E5%8F%B7.md)    
+12 [信号与信号产生的方式](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BF%A1%E5%8F%B7%E4%B8%8E%E4%BF%A1%E5%8F%B7%E4%BA%A7%E7%94%9F%E7%9A%84%E6%96%B9%E5%BC%8F.md)    
 13 [信号产生的过程](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BF%A1%E5%8F%B7%E4%BA%A7%E7%94%9F%E7%9A%84%E8%BF%87%E7%A8%8B.md)    
 14 [信号的执行](https://github.com/Lp700750/Blogs/blob/master/Article/%E4%BF%A1%E5%8F%B7%E7%9A%84%E6%89%A7%E8%A1%8C.md)    
 15 [可重入函数](https://github.com/Lp700750/Blogs/blob/master/Article/%E5%8F%AF%E9%87%8D%E5%85%A5%E5%87%BD%E6%95%B0.md)    
